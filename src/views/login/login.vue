@@ -3,6 +3,10 @@
         {{data.pageName}}
         <div>
             <Test></Test>
-        </div>。
+        </div>
     </div>
 </template>
+<script lang="ts" src="./login.ts"></script>
+<style lang="scss">
+  @import './login.scss'
+</style>

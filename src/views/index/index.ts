@@ -9,4 +9,7 @@ export default class About extends Vue {
   created() {
     this.GET_DATA_ASYN()
   }
+  data: IndexData = {
+  	pageName: 'index'
+  }
 }

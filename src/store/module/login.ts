@@ -25,7 +25,7 @@ const actions: ActionTree<LoginState, any> = {
     commit('UPDATE_STATE', data)
   },
   GET_DATA_ASYN({ commit, state: LoginState }) {
-    Login.getData()
+    LoginApi.getData()
   }
 }
 export default {
